@@ -1,6 +1,7 @@
 name: Qr_Scan
 description: scan qr code.
 publish_to: 'none'
+author: Tarek Taamali 
 
 environment:
   sdk: ">=2.2.2 <3.0.0"
