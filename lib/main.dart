@@ -109,7 +109,7 @@ class _HomePageState extends State<HomePage>
       isOk=false;
       _controller.stopCamera();
       _animationController.stop();
-    } else if (state == AppLifecycleState.suspending) {
+    } else if (state == AppLifecycleState.detached) {
       // app suspended (not used in iOS)
     }
   }
